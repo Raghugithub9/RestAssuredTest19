@@ -20,7 +20,7 @@ public class QueryParameterExample {
 		req.baseUri("https://reqres.in");
 		req.basePath("/api/users");//End point
 		
-		req.queryParam("page", 2);
+		req.queryParam("page", 3);
 		
 		
 		QueryableRequestSpecification qryrequest=SpecificationQuerier.query(req);

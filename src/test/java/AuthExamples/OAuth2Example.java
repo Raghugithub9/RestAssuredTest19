@@ -49,6 +49,7 @@ RequestSpecification req=RestAssured.given();
 		
 		
 		System.out.println(res.statusLine());
+		System.out.println(res.prettyPrint());
 		
 		
 		
